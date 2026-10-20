@@ -1,4 +1,4 @@
-# NaNa-ViewBook (nana-infrastructure-core)
+# NaNa-ViewBook 
 
 > **Open-Source Anti-Piracy Detection & Content Shield Engine**
 > *Empowering independent authors to locate stolen manuscripts, track down illegal PDF/audio distributions, and assess creative data exploitation.*
