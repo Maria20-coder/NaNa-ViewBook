@@ -1,39 +1,54 @@
 # NaNa-ViewBook 
 
-> **Open-Source Anti-Piracy Detection & Content Shield Engine**
-> *Empowering independent authors to locate stolen manuscripts, track down illegal PDF/audio distributions, and assess creative data exploitation.*
+> **An Independent, Local-First Writing Workspace Preserving Creative Labor and Provenance**
+
+NaNa-ViewBook is an open-source, local-first web utility designed to establish an un-fakeable "Proof-of-Labor" framework for independent writers and authors. This project addresses a massive structural crisis: creators face rampant automated text-scraping and exploitation, yet they lack institutional safety nets, stable salaries, or accessible ways to prove their work is human without surrendering their digital identity to invasive tracking databases.
+
+NaNa-ViewBook solves this by acting as a silent, offline witness to the mechanical friction and cognitive latency of the human writing process.
 
 ---
 
-## 🔎 Project Abstract
+## ⚡ The Project Logic: How It Works
 
-**NaNa-ViewBook** is an open-source, privacy-first search utility designed to protect independent authors from digital theft and unauthorized commercial exploitation. Scammers systematically scrape original manuscripts, uploading bootleg free PDFs and illegal audiobooks onto hidden forums, torrent indices, and public websites to generate illicit profits without the creator's consent. 
+Writing a 90,000-word manuscript is a slow, human process structurally defined by mechanical errors, spontaneous typo corrections, backspaces, and deep pauses of thought between sentences. Generative AI outputs text instantly and uniformly.
 
-NaNa-ViewBook solves this systemic legal theft by providing a secure, no-login tracking dashboard. Authors input their book title into a localized search query, and our background AI-driven web utility programmatically scans public indexes, text repositories, and deep forum archives to pinpoint exactly where the pirated files are hosted, generating an unalterable proof ledger for future legal action.
+NaNa-ViewBook runs entirely inside the user's browser runtime memory under a **strict no-login, zero-database architecture**. It records typing dynamics locally. When a session ends, **the application saves nothing to the cloud—the writer must manually download their work as a local archive file directly to their computer.**
 
----
-
-## 🛠️ Core Architectural Framework
-
-The utility bridges automated web detection scripts, creator sovereignty, and public policy data mapping:
-
-*   **Anti-Piracy Detection Core (`/src/somatic-engine/`):** Houses the open-source web-crawling and search indexing scripts designed to monitor open-web registries and text distribution nodes for unauthorized file name matches.
-*   **Cryptographic Reporting Loop (`/src/escrow-ledger/`):** Aggregates verified source URLs, file metadata details, and illicit download metrics into a standardized, cryptographically signed JSON case file complete with a SHA-256 hash.
-*   **Macroeconomic Impact Module (`/src/national-loop/`):** Compiles decentralized tracking telemetry to give state treasuries and human rights NGOs a clear, mathematical picture of the tax revenue losses caused by illicit creative piracy networks.
+### The Local Output Archive (.ZIP Bundle)
+When a user exports their session from the browser, the application packages their data into a timestamped file bundle containing:
+1. `manuscript.txt` — The clean, un-altered plain text file.
+2. `manuscript.pdf` — A reader-ready document compiled entirely client-side.
+3. `proof_token.nana.json` — A cryptographic metadata file tracking total keystrokes, backspace corrections, and session duration bound to an unalterable SHA-256 watermark signature.
+4. `live_draft_proof.html` — An interactive visual review document showing the final text in black, while highlighting all deleted paragraphs and corrected mistakes inline using a custom accent color, complete with "Cognitive Pause" time markers adjacent to line segments to visually manifest the writer's thought rhythm.
 
 ---
 
-##  R&D Funding & Milestone Roadmap
+## 🛠️ Repository Directory Framework
 
-This public-goods tracking framework is developed independently by a solo researcher holding a **Master's Degree in International Communication and Public Diplomacy**.
+The layout of the codebase is structured as a modular plugin architecture to easily attach to existing open-source text interfaces:
 
-*   **Milestone 1: AI Search Scripting & Web Detection R&D (\$5,000 USD Total | Months 1–3)**
-    - *Deliverables:* 100% of this grant is allocated to funding 100 senior research and software engineering hours at a flat rate of \$50/hour. This covers coding the background web-crawling loops, optimizing query parameters for automated forum scanning, and compiling data infrastructure documentation using our active visual MVP.
-    - *Verification:* Public GitHub commit to this repository containing the functional search engine scripts, query parameters, and mock validation log data models.
+* **/src/somatic-engine/** — Captures browser-native typing interval logs and processes the offline Local Differential Privacy (LDP) noise filter to protect biometric identity.
+* **/src/provenance-ledger/** — Manages local browser-native fault tolerance (IndexedDB auto-save cache) and compiles the client-side `.zip` bundle export.
+* **/specs/** — Houses technical specifications and mathematical design configurations detailing our Laplace perturbation boundaries.
 
 ---
 
-##  Development Meta & Verification
-*   **Ecosystem Research Portal:** https://tally.so/r/vGbAqg
-*   **Live UI Simulator Engine:** https://app.base44.com/apps/6abf8a76114e77b62f2ab410/editor/preview
-  
+## 🔬 About the Researcher & Project Status
+
+This utility is a standalone public-good project developed independently utilizing personal savings.
+
+* **Researcher Background:** I hold a **Master's Degree in International Communication and Public Diplomacy**. My research focus centers on the intersection of creator copyright protection, open internet user sovereignty, and mitigating the economic exploitation of creative labor by automated digital systems.
+* **Live UI Simulator Engine:** An interactive front-end visual interface and counter layout is actively configured and hosted via Base44: `https://base44.com`
+
+---
+
+## ⏳ Project Development Tasks (6-Month Roadmap)
+
+We are seeking grant funding from public interest technology channels to cover exactly **900 hours** of dedicated technical development, cryptographic testing, and editor implementation at a flat, transparent rate of **€50 per hour** (€45,000 total request).
+
+* **Task 1: Browser Ingestion Sandbox & Telemetry Logic** (Months 1–2 | €17,500)
+  Building the core telemetry capture algorithms on top of the open-source ProseMirror/TipTap web framework. Wiring browser events to log backspaces and compute pause intervals safely in temporary memory.
+* **Task 2: Fault Tolerance & Local Archive Packaging** (Months 3–4 | €15,000)
+  Implementing an offline local recovery cache (IndexedDB) so writers never lose drafts if a browser crashes, and coding the native client-side `.zip` download compiler.
+* **Task 3: Modular Plugin Adaptation & Open Metrics** (Months 5–6 | €12,500)
+  Packaging the underlying code engine into modular, lightweight upstream plugins for popular markdown ecosystems (such as Obsidian or VS Code) so writers can access these labor proofs inside their favorite local tools.
