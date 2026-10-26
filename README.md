@@ -44,11 +44,11 @@ This utility is a standalone public-good project developed independently utilizi
 
 ## ⏳ Project Development Tasks (6-Month Roadmap)
 
-We are seeking grant funding from public interest technology channels to cover exactly **900 hours** of dedicated technical development, cryptographic testing, and editor implementation at a flat, transparent rate of **€50 per hour** (€45,000 total request).
+I am seeking grant funding from public interest technology channels to cover exactly **1,000 hours** of dedicated technical development, cryptographic testing, and editor implementation at a flat, transparent rate of **€50 per hour** (€50,000 total request).
 
-* **Task 1: Browser Ingestion Sandbox & Telemetry Logic** (Months 1–2 | €17,500)
+* **Task 1: Browser Ingestion Sandbox & Telemetry Logic** (Months 1–2 | €19,500)
   Building the core telemetry capture algorithms on top of the open-source ProseMirror/TipTap web framework. Wiring browser events to log backspaces and compute pause intervals safely in temporary memory.
-* **Task 2: Fault Tolerance & Local Archive Packaging** (Months 3–4 | €15,000)
+* **Task 2: Fault Tolerance & Local Archive Packaging** (Months 3–4 | €16,500)
   Implementing an offline local recovery cache (IndexedDB) so writers never lose drafts if a browser crashes, and coding the native client-side `.zip` download compiler.
-* **Task 3: Modular Plugin Adaptation & Open Metrics** (Months 5–6 | €12,500)
+* **Task 3: Modular Plugin Adaptation & Open Metrics** (Months 5–6 | €14,000)
   Packaging the underlying code engine into modular, lightweight upstream plugins for popular markdown ecosystems (such as Obsidian or VS Code) so writers can access these labor proofs inside their favorite local tools.
