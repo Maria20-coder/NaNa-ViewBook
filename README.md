@@ -38,7 +38,7 @@ The layout of the codebase is structured as a modular plugin architecture to eas
 This utility is a standalone public-good project developed independently utilizing personal savings.
 
 * **Researcher Background:** I hold a **Master's Degree in International Communication and Public Diplomacy**. My research focus centers on the intersection of creator copyright protection, open internet user sovereignty, and mitigating the economic exploitation of creative labor by automated digital systems.
-* **Live UI Simulator Engine:** An interactive front-end visual interface and counter layout is actively configured and hosted via Base44: https://nana-viewbook.base44.app`
+* **Live UI Simulator Engine:** An interactive front-end visual interface and counter layout is actively configured and hosted via Base44: https://nana-viewbook.base44.app
 
 ---
 
