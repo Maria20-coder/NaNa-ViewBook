@@ -8,7 +8,7 @@ NaNa-ViewBook solves this by acting as a silent, offline witness to the mechanic
 
 ---
 
-## ⚡ The Project Logic: How It Works
+##  The Project Logic: How It Works
 
 Writing a 90,000-word manuscript is a slow, human process structurally defined by mechanical errors, spontaneous typo corrections, backspaces, and deep pauses of thought between sentences. Generative AI outputs text instantly and uniformly.
 
@@ -38,7 +38,7 @@ The layout of the codebase is structured as a modular plugin architecture to eas
 This utility is a standalone public-good project developed independently utilizing personal savings.
 
 * **Researcher Background:** I hold a **Master's Degree in International Communication and Public Diplomacy**. My research focus centers on the intersection of creator copyright protection, open internet user sovereignty, and mitigating the economic exploitation of creative labor by automated digital systems.
-* **Live UI Simulator Engine:** An interactive front-end visual interface and counter layout is actively configured and hosted via Base44: `https://base44.com`
+* **Live UI Simulator Engine:** An interactive front-end visual interface and counter layout is actively configured and hosted via Base44: https://nana-viewbook.base44.app`
 
 ---
 
