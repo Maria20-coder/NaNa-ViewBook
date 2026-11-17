@@ -18,12 +18,12 @@ NaNa-ViewBook runs entirely inside the user's browser runtime memory under a **s
 When a user exports their session from the browser, the application packages their data into a timestamped file bundle containing:
 1. `manuscript.txt` — The clean, un-altered plain text file.
 2. `manuscript.pdf` — A reader-ready document compiled entirely client-side.
-3. `proof_token.nana.json` — A cryptographic metadata file tracking total keystrokes, backspace corrections, and session duration bound to an unalterable SHA-256 watermark signature.
-4. `live_draft_proof.html` —  An interactive review document featuring custom accent markup for tracking changes, an eye-protective dual-view canvas with multiple themes, and automatic mapping to print-ready white paper standards. For the full detailed description of this item, please refer to the referenced web document.
+3. `proof_token.nana.json` — A cryptographic metadata file tracking total keystrokes, backspace corrections, and session duration bound to an tamper-evident SHA-256 integrity hash.
+4. `live_draft_proof.html` —  An interactive review document featuring custom accent markup for tracking changes, an eye-protective dual-view canvas with multiple themes, and automatic mapping to print-ready white paper standards. 
 
 ---
 
-## 🛠️ Repository Directory Framework
+## 🛠️ Planned Repository Directory Framework
 
 The layout of the codebase is structured as a modular plugin architecture to easily attach to existing open-source text interfaces:
 
