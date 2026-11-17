@@ -2,7 +2,7 @@
 
 > **An Independent, Local-First Writing Workspace Preserving Creative Labor and Provenance**
 
-NaNa-ViewBook is an open-source, local-first web utility designed to establish an un-fakeable "Proof-of-Labor" framework for independent writers and authors. This project addresses a massive structural crisis: creators face rampant automated text-scraping and exploitation, yet they lack institutional safety nets, stable salaries, or accessible ways to prove their work is human without surrendering their digital identity to invasive tracking databases.
+NaNa-ViewBook is an open-source, local-first web utility providing a tamper-evident "Proof-of-Labor" framework for writers to protect against automated text-scraping without invasive tracking. It operates via a zero-login, zero-database architecture that records typing dynamics locally in browser memory.
 
 NaNa-ViewBook solves this by acting as a silent, offline witness to the mechanical friction and cognitive latency of the human writing process.
 
